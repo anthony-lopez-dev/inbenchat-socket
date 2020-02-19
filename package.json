@@ -1,0 +1,14 @@
+{
+  "name": "inbenchat-socket",
+  "version": "1.0.0",
+  "main": "app.js",
+  "license": "MIT",
+  "scripts": {
+    "serve": "node app.js"
+  },
+  "dependencies": {
+    "express": "^4.17.1",
+    "http": "^0.0.0",
+    "socket.io": "^2.3.0"
+  }
+}
