@@ -1,6 +1,7 @@
 const express = require('express')
 const app = express()
 
+// Start socket server
 const server = app.listen(3001, () => {
     console.log('server running on port 3001')
 })
